@@ -22,4 +22,4 @@ Erros: Eu errei nas muito na aspas, em ('volue') e em ('nota1').
 
 dificuldade: Em ver o reultado da média.
 
-Solução:  var resultado = document.getElementById('resultado')
+Solução:  var resultado = document.getElementById('resultado') e  resultado.innerHTML = media
