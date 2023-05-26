@@ -22,5 +22,5 @@ Erros: Eu errei muito nas aspas, em ('volue') e ('nota1'). Eu estava colocando e
 
 dificuldade: Em ver o reultado da média.
 
-Solução:  var resultado = document.getElementById('resultado') esse codigo serve para Retorna a referência do elemento através do seu ID. e  resultado.innerHTML = essa ptopieade propriedade define ou obtém a sintaxe HTML ou XML descrevendo os elementos descendentes.
+Solução:  var resultado = document.getElementById('resultado') esse codigo serve para Retorna a referência do elemento através do seu ID. e  resultado.innerHTML = essa propriedade define ou obtém a sintaxe HTML ou XML descrevendo os elementos descendentes.
 
