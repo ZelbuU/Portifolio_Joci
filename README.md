@@ -24,4 +24,3 @@ dificuldade: Em ver o reultado da média.
 
 Solução:  var resultado = document.getElementById('resultado') e  resultado.innerHTML = media
 
-link: file:///C:/Users/Sec%20RN/Documents/projeto%20aula2/gdpro.html
