@@ -18,7 +18,7 @@ Arquivo (s):
  
  Dificuldades/erros entrados durante o desenvolvimento do projeto:
  
-Erros: Eu errei nas muito na aspas, em ('volue') e em ('nota1').
+Erros: Eu errei muito nas aspas, em ('volue') e ('nota1').
 
 dificuldade: Em ver o reultado da média.
 
