@@ -35,7 +35,6 @@ Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script>
 
 
 
-
 <h1> Aula do dia 01/06/2023 </h1>
 
 
