@@ -28,9 +28,17 @@ Solução:  var resultado = document.getElementById('resultado') esse codigo ser
 
 <h1> Aula do dia 25/05/2023 </h1>
 
-Introdução: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada, e o professor nos ensinou a como calcular
+Introdução: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada de 2 notas, e o professor nos ensinou a como calcular ponderada.
 
 Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script>, e utilizamos um novo codigo google.script.run.
+
+
+
+
+
+<h1> Aula do dia 01/06/2023 </h1>
+
+
 
 
 
