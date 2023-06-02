@@ -41,7 +41,7 @@ Tecnologia Utilizadas:
 
 Resumo da aula: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada de 2 notas, mas estava errada, não conseguimos ter os calculos, porque o não estava enviando os dados ao servidor, e o professor nos ensinou a como calcular ponderada.
 
-Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script> etc, e utilizamos um novo codigo google.script.run.
+Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script> etc, e utilizamos um novo codigo google.script.run: um objeto fornecido pelo Google Apps Script que permite chamar funções no servidor.
 
 Link:https://script.google.com/macros/s/AKfycby4N2HFW5_fRz5xOdTm3r92eXVm6mQb2g-5DzZbFUYhIoRFIE6Vvjh28LbaqR6V1eeC/exec
 
@@ -61,7 +61,7 @@ Tecnologia Utilizadas:
 
 Resumo da aula: O professor nos ensinou uma nova função: google.script.run.withSuccessHandler: Uma função que envia dados ao servidor, e com isso conseguimos fazer a atividade passada(25/05/2023).
 
-Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: google.script.run.withSuccessHandler.
+Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: google.script.run.withSuccessHandler(funcaoRetorno): Um metodo que define a função de retorno de chamadaque será chamada no cliente quando a função do servidor for executada om sucesse.
 
 Link:https://script.google.com/macros/s/AKfycby4N2HFW5_fRz5xOdTm3r92eXVm6mQb2g-5DzZbFUYhIoRFIE6Vvjh28LbaqR6V1eeC/exec
 
@@ -80,10 +80,15 @@ Tecnologia Utilizadas:
 
 Resumo da aula: Fizemos um código para cadasstrar o e-mail e senha do usuário, o e-mail e senha são fixo, eu que passava o comando
 
+Códigos Utilizados: <label>, <input type=, usamos os códigos password, email, e submit, <form> </form>, <script> </script>, var, document.getElementById, google.script.run.withSuccessHandler.
+E no Código.gs utilizei essee códigos  if (email === emailCorreto && senha === senhaCorreta) {
+    return 'Login bem-sucedido';
+  } else {
+    return 'Login falhou';
+  }
+}
 
-
-
-
+Link:https://script.google.com/macros/s/AKfycbywAV9QO5MOPapdNf1NDZERmnemWgLBpX-UCXWtOzPKDavUOYLUaTq7mZE8U8CXwXzk/exec
 
 
 
