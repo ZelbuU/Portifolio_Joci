@@ -41,7 +41,7 @@ Tecnologia Utilizadas:
 
 Resumo da aula: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada de 2 notas, mas estava errada, não conseguimos ter os calculos, porque o não estava enviando os dados ao servidor, e o professor nos ensinou a como calcular ponderada.
 
-Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script>, e utilizamos um novo codigo google.script.run.
+Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script> etc, e utilizamos um novo codigo google.script.run.
 
 
 
@@ -66,12 +66,18 @@ Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: go
 
 <h1> Aula do dia 02/06/2023 </h1>
 
+Arquivo (s):
+<ul>
+  <li>Login.txt</li>
+</ul>
 
+Tecnologia Utilizadas:
 
+<ul>
+  <li>Google apps script e HTML</li>
+</ul>  
 
-
-
-
+Resumo da aula: Fizemos um código para cadasstrar o e-mail e senha do usuário, o e-mail e senha são fixo, eu que passava o comando
 
 
 
