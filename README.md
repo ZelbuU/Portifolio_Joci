@@ -87,7 +87,8 @@ E no Código.gs utilizei essee códigos  if (email === emailCorreto && senha ===
     return 'Login falhou';
   }
 }
-Essas
+A fução if: É uma estrutura de controle condicional presente em várias linguagens de programação, incluindo JavaScript. "==" verifica a igualdade de dois valores. Ele retorna verdadeiro se os dois valores forem iguais, e falso se forem diferentes."&&" ele é usado para combinar duas expressões booleanas e retorna verdadeir, falso caso for oa contrário. else ele é utilizado em conjunto com "if" para criar ramos alternativos de execução de código.
+
 Link:https://script.google.com/macros/s/AKfycbywAV9QO5MOPapdNf1NDZERmnemWgLBpX-UCXWtOzPKDavUOYLUaTq7mZE8U8CXwXzk/exec
 
 
