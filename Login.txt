@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form onsubmit="event.preventDefault(); verificarLogin();">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required><br>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" required><br>
+      <input type="submit" value="Login">
+    </form>
+    <p id="resultado"></p>
+    
+    <script>
+      function verificarLogin() {
+        var email = document.getElementById('email').value;
+        var senha = document.getElementById('senha').value;
+        
+        google.script.run.withSuccessHandler(exibirResultado).verificarCredenciais(email, senha);
+      }
+      
+      function exibirResultado(resultado) {
+        document.getElementById('resultado').textContent = resultado;
+      }
+    </script>
+  </body>
+</html>
