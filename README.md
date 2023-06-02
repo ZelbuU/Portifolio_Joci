@@ -39,7 +39,7 @@ Tecnologia Utilizadas:
   <li>Google apps script e HTML</li>
 </ul>  
 
-Introdução: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada de 2 notas, mas estava errada, não conseguimos ter os calculos, porque o não estava enviando os dados ao servidor, e o professor nos ensinou a como calcular ponderada.
+Resumo da aula: tevemos uma aula de fixação de conteudo, e o professor nos ajudou a desenvolver o codigo: Era pra fazer uma página que calcula média ponderada de 2 notas, mas estava errada, não conseguimos ter os calculos, porque o não estava enviando os dados ao servidor, e o professor nos ensinou a como calcular ponderada.
 
 Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script>, e utilizamos um novo codigo google.script.run.
 
@@ -59,9 +59,28 @@ Tecnologia Utilizadas:
   <li>Google apps script e HTML</li>
 </ul>  
 
-Itrodução: O professor nos ensinou uma nova função: google.script.run.withSuccessHandler: Uma função que envia dados ao servidor, e com isso conseguimos fazer a atividade passada(25/05/2023).
+Resumo da aula: O professor nos ensinou uma nova função: google.script.run.withSuccessHandler: Uma função que envia dados ao servidor, e com isso conseguimos fazer a atividade passada(25/05/2023).
 
-Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: google.script.run.withSuccessHandler
+Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: google.script.run.withSuccessHandler.
+
+
+<h1> Aula do dia 02/06/2023 </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
