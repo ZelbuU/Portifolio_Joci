@@ -78,7 +78,7 @@ Tecnologia Utilizadas:
   <li>Google apps script e HTML</li>
 </ul>  
 
-Resumo da aula: Fizemos um código para cadasstrar o e-mail e senha do usuário, o e-mail e senha são fixo, eu que passava o comando
+Resumo da aula: Fizemos um código para cadasstrar o e-mail e senha do usuário, o e-mail e senha são fixo, eu que passava o comando, e agora etou fazendo o meu portifólio
 
 Códigos Utilizados: <label>, <input type=, usamos os códigos password, email, e submit, <form> </form>, <script> </script>, var, document.getElementById, google.script.run.withSuccessHandler.
 E no Código.gs utilizei essee códigos  if (email === emailCorreto && senha === senhaCorreta) {
@@ -87,7 +87,7 @@ E no Código.gs utilizei essee códigos  if (email === emailCorreto && senha ===
     return 'Login falhou';
   }
 }
-
+Essas
 Link:https://script.google.com/macros/s/AKfycbywAV9QO5MOPapdNf1NDZERmnemWgLBpX-UCXWtOzPKDavUOYLUaTq7mZE8U8CXwXzk/exec
 
 
