@@ -43,7 +43,7 @@ Resumo da aula: tevemos uma aula de fixação de conteudo, e o professor nos aju
 
 Codigos Utilizados: text, e number, h1. e <button onclick=""></button>, <script> </script> etc, e utilizamos um novo codigo google.script.run.
 
-
+Link:https://script.google.com/macros/s/AKfycby4N2HFW5_fRz5xOdTm3r92eXVm6mQb2g-5DzZbFUYhIoRFIE6Vvjh28LbaqR6V1eeC/exec
 
 
 <h1> Aula do dia 01/06/2023 </h1>
@@ -63,6 +63,7 @@ Resumo da aula: O professor nos ensinou uma nova função: google.script.run.wit
 
 Códigos Utilizados: Os mesmo da aula passada(25/05/2023), e um novo código: google.script.run.withSuccessHandler.
 
+Link:https://script.google.com/macros/s/AKfycby4N2HFW5_fRz5xOdTm3r92eXVm6mQb2g-5DzZbFUYhIoRFIE6Vvjh28LbaqR6V1eeC/exec
 
 <h1> Aula do dia 02/06/2023 </h1>
 
