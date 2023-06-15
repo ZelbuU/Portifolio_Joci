@@ -92,6 +92,35 @@ A fução if: É uma estrutura de controle condicional presente em várias lingu
 Link:https://script.google.com/macros/s/AKfycbywAV9QO5MOPapdNf1NDZERmnemWgLBpX-UCXWtOzPKDavUOYLUaTq7mZE8U8CXwXzk/exec
 
 
+<h1> Aula do dia 15/06/2023 </h1>
+
+
+Tecnologia Utilizadas:
+
+<ul>
+  <li>Google apps script e HTML</li>
+</ul>  
+
+Resumo da Aula: Aprendemos a como pegar um URL.
+
+Cóigos Utilizados:
+
+Essa função serve para receber os dados do formulário
+
+function doPost(e){
+  Logger.log(e.parameter.msg)
+  Logger.log(e.parameter.endereco)
+}
+
+Essa função que retorna a URL da aplicação
+
+function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
+
+
+
 
 
 
