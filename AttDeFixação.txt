@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+         <? var url = pegarUrl() ?>
+
+      <form action="<?= url ?>" method="POST">
+
+        <label for="msg">Mensagem</label>
+        <input type="text" id="text" name="msg" >
+
+        <label for="endereco">Endereço</label>
+        <input tyoe="text" id="endereco" name="endereco">
+        <button type="submit">Enviar</button>
+      </form>
+
+  </body>
+</html>
+
+
+
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('formulario').evaluate();
+}
+
+function doPost(e){
+  Logger.log(e.parameter.msg)
+  Logger.log(e.parameter.endereco)
+}
+
+ function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
+
