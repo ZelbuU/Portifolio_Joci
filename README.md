@@ -95,6 +95,12 @@ Link:https://script.google.com/macros/s/AKfycbywAV9QO5MOPapdNf1NDZERmnemWgLBpX-U
 <h1> Aula do dia 15/06/2023 </h1>
 
 
+Arquivo (s):
+<ul>
+  <li>AttDeFixação.txt</li>
+</ul>
+
+
 Tecnologia Utilizadas:
 
 <ul>
@@ -118,6 +124,41 @@ function pegarUrl(){
  var url = ScriptApp.getService().getUrl();
  return url
  }
+
+
+<h1> Aula do dia 16/06/2023 </h1>
+
+
+Arquivo (s):
+<ul>
+  <li>AttDeFixação.txt</li>
+</ul>
+
+
+Tecnologia Utilizadas:
+
+<ul>
+  <li>Google apps script, HTML, Google Drive</li>
+</ul>  
+
+
+Resumo da Aula:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
