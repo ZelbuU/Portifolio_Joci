@@ -1,0 +1,82 @@
+function doGet() {
+  return HtmlService.createTemplateFromFile('planilha').evaluate();
+}
+function getUrl(){
+  var url = ScriptApp.getService().getUrl();
+  return url;
+}
+
+function doPost(e){
+Logger.log(e.parameter.titulo)
+var titulo = e.parameter.titulo;
+var autor = e.parameter.autor;
+var dataLancamento = e.parameter.dataLancamento;
+var qtdPaginas = e.parameter.qtdPaginas;
+var qtdlivros = e.parameter.qtdlivros;
+
+
+var planilha = SpreadsheetApp.openById('1L6QZRgqwe0KPIeQG58PaQujWABCY3c3VgAv7vPFQt4E')
+
+var tabela = planilha.getSheetByName('Planilha123')
+
+tabela.appendRow([titulo, autor, dataLancamento, qtdPaginas, qtdlivros])
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <? var url = getUrl() ?>
+
+<form action="<?= url ?>" method="POST">
+
+  <label for="titulo">Titulo do Livro</label>
+  <input type="text" id="titulo" name="titulo">
+
+  <label for="autor">Autor</label>
+  <input type="text" id="autor" name="autor">
+
+  <label for="dataLancamento">Data de Lançamento</label>
+  <input type="date" id="dataLancamento" name="dataLancamento">
+
+  <label for="qtdPagina">Quantidade de Páginas</label>
+  <input type="text" id="qtdPaginas" name="qtdPaginas">
+
+  <label for="qtdLivro">Quantidade de Livros</label>
+  <input type="text" id="qtdLivros" name="qtdLivros">
+ 
+  <button type="submit">Cadatrar</button> 
+</form>
+
+
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
