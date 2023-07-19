@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+     
+    <? var url = pegarUrl() ?>
+
+      <form action="<?= url ?>" method="POST">
+
+
+  <label for="distancia">A distancia da sua casa até a casa de sua mãe: </label>
+  <input type="number" id="distancia" name="distancia">
+
+  <label for="consumo">O consumo de seu carro: </label>
+  <input type="number" id="consumo" name="consumo">
+
+  <label for="preco">O preço da gasolina: </label>
+  <input type="number" id="preco" name="preco">
+<button onclick="valorFinal()">Valor Final</button> </br>
+
+<p>Resultado:</p>
+<p id="resultadoFinal"></p>
+</div>
+
+      </form>
+  </body>
+</html>
+
+
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('Acesso').evaluate();
+}
+function doPost(e){
+var distancia =  e.parameter.distancia;
+var consumo =   e.parameter.consumo;
+var preco = e.parameter.preco;
+var valorFinal = ((distancia/consumo)*preco);
+
+Logger.log(valorFinal);
+
+
+}
+
+ function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
+
+
+
+
+
+
+
+
+
