@@ -37,3 +37,35 @@ function doPost(e){
  return url
  }
 
+
+----------------------------------------------------------------------------------------------------------
+
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('formulario').evaluate();
+}
+
+function doPost(e){
+  Logger.log(e.parameter.msg)
+  Logger.log(e.parameter.endereco)
+}
+
+ function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
