@@ -109,7 +109,7 @@ Tecnologia Utilizadas:
 
 Resumo da Aula: Aprendemos a como pegar um URL.
 
-Cóigos Utilizados:
+Códigos Utilizados:
 
 Essa função serve para receber os dados do formulário
 
@@ -142,28 +142,71 @@ Tecnologia Utilizadas:
 </ul>  
 
 
-Resumo da Aula:
+Resumo da Aula: Fizemos o google apps script enviar uma mensagem para o servidor, o servidor não retornou, a mensagem retornou nas execucões do Apps Script. Bom, foi isso que eu me lembro de ter feito.
+
+Códigos Utilazados: 
+
+Essa função serve para pegar a URL 
+
+<? var url = pegarUrl() ?>
+  
+Essa função serve para retorna a URL
+
+function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
+
+ E usamos novamente o código Logger.log. Essa função serve para receber os dados do formulário
+
+function doPost(e){
+  Logger.log(e.parameter.msg)
+  Logger.log(e.parameter.endereco)
+}
+
+Link: https://script.google.com/macros/s/AKfycbx3HLwYonu-gxYQETN3-BfuadkYVuCXohMqGmVZQCC1P7JfxUQ8P3eHepcrvN1u0KA/exec
 
 
 
+<h1> Aula do dia 21/06/2023 </h1>
 
 
+Arquivo (s):
+<ul>
+  <li></li>
+</ul>
 
 
+Tecnologia Utilizadas:
+
+<ul>
+  <li>Google apps script</li>
+</ul>  
+
+Resumo da Aula: Nessa aula fizemo uma Atividade Avaliativa, que tinha que saber qual era a distancia que uma mulher estava da casa de sua mãe, e quanto ela iria gastar de gasolina, e o preço da gasolina.
 
 
+Códigos Utilizados: 
 
+<label for="preco"> </label>
 
+<input type="" id="" ="">
 
+<button onclick="()"> </button> </br>
 
+<script> </script>
 
+E com essa função conseguimos multiplicar a distancia e oconsumo, e depois dividimos o preço.
 
+function doGet() {
+   return HtmlService.createTemplateFromFile('Gasosa').evaluate();
+}
+function valorFinal(distancia, consumo, preco){
+var custo = ((distancia/consumo)*preco);
+return custo;
+}
 
-
-
-
-
-
+Link: https://script.google.com/macros/s/AKfycbztCCv6OYA1KnFGedphXfkZyvorwFBplrMtfG0sw4DtfXM2aCXfdKZlsXO7BNN6sDQ/exec
 
 
 
