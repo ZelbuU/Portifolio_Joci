@@ -173,7 +173,7 @@ Link: https://script.google.com/macros/s/AKfycbx3HLwYonu-gxYQETN3-BfuadkYVuCXohM
 
 Arquivo (s):
 <ul>
-  <li></li>
+  <li>AttAvaliativa1.txt</li>
 </ul>
 
 
@@ -207,6 +207,40 @@ return custo;
 }
 
 Link: https://script.google.com/macros/s/AKfycbztCCv6OYA1KnFGedphXfkZyvorwFBplrMtfG0sw4DtfXM2aCXfdKZlsXO7BNN6sDQ/exec
+
+<h1> Aula do dia 22/06/2023 </h1>
+
+
+Arquivo (s):
+<ul>
+  <li>AttAvaliativa2.txt</li>
+</ul>
+
+
+Tecnologia Utilizadas:
+
+<ul>
+  <li>Google apps script</li>
+</ul>  
+
+
+Resumo Da Aula: Nessa tivemos que fazer a segunda atividade avaliativa, mas nessa eu só fiz copiar o primeiro código e fazer um form, e acessalo pelaas execuções do Apps Script.
+
+Códogos Utilizados: 
+
+ Para pegar a URL
+ <? var url = pegarUrl() ?>
+
+<form action="<?= url ?>" method="POST">
+
+
+
+
+
+
+
+
+
 
 
 
