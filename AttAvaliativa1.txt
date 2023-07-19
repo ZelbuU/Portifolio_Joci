@@ -1,0 +1,46 @@
+function doGet() {
+   return HtmlService.createTemplateFromFile('Gasosa').evaluate();
+}
+function valorFinal(distancia, consumo, preco){
+var custo = ((distancia/consumo)*preco);
+return custo;
+}
+
+ --------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+     <label for="distancia">A distancia da sua casa até a casa de sua mãe: </label>
+  <input type="number" id="distancia" name="distancia">
+
+  <label for="consumo">O consumo de seu carro: </label>
+  <input type="number" id="consumo" name="consumo">
+
+  <label for="preco">O preço da gasolina: </label>
+  <input type="number" id="preco" name="preco">
+<button onclick="valorFinal()">Valor Final</button> </br>
+
+<p>Resultado:</p>
+<p id="resultadoFinal"></p>
+</div>
+
+<script>
+function valorFinal(){
+var distancia = parseFloat(document.getElementById('distancia').value);
+var consumo = parseFloat(document.getElementById('consumo').value);
+var preco = parseFloat(document.getElementById('preco').value);
+google.script.run.withSuccessHandler(exibirValor).valorFinal(distancia, consumo, preco);
+}
+function exibirValor(custo){
+var resultadoFinal = document.getElementById('resultadoFinal');
+resultadoFinal.innerHTML = custo;
+}
+
+</script>
+</body>
+</html>
+
