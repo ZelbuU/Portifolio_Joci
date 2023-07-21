@@ -224,11 +224,11 @@ Tecnologia Utilizadas:
 </ul>  
 
 
-Resumo Da Aula: Nessa tivemos que fazer a segunda atividade avaliativa, mas nessa eu só fiz copiar o primeiro código e fazer um form, e acessalo pelaas execuções do Apps Script.
+Resumo Da Aula: Nessa tivemos que fazer a segunda atividade avaliativa, mas nessa eu só fiz copiar o primeiro código e fazer um form, e acessalo pelas execuções do Google Apps Script.
 
 Códogos Utilizados: 
 
- Para pegar a URL
+ Para pegar a URL e mandar URL
  <? var url = pegarUrl() ?>
 <form action="<?= url ?>" method="POST">
 
@@ -237,7 +237,7 @@ Códogos Utilizados:
  return url
  }
 
-
+Link: https://script.google.com/macros/s/AKfycby1FU4yxRhfR0qNEh03pRs0MjzuM9tVrK_5OnFJNo86A1VWUE02_DrqzrsACK0_Tzig/exec
 
 
 
