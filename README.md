@@ -230,10 +230,12 @@ Códogos Utilizados:
 
  Para pegar a URL
  <? var url = pegarUrl() ?>
-
 <form action="<?= url ?>" method="POST">
 
-
+ function pegarUrl(){
+ var url = ScriptApp.getService().getUrl();
+ return url
+ }
 
 
 
